@@ -1,0 +1,42 @@
+body.signing-body {
+    background-color: #e6f2ff;   
+}
+
+.container.signing-container {
+    margin-top: 8%;
+}
+
+
+.card.signing-card {
+    padding: 40px 0px 20px;
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /*for chrome and safari*/
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /*for mozilla*/
+}
+
+img.signing-img {
+    padding: 0 2rem 2rem; /*rem, r stands for the root font of the browsers. 2rem means 2 times the root font*/
+    margin: auto;
+    display: block;
+}
+
+form.signing-form {
+    max-width: 350px;
+    margin: auto;
+}
+
+button.signing-btn {
+    color: #ffffff;
+    background-color: #d64829;
+    width: 100%;
+    margin-bottom: 0.8rem;
+}
+
+a.creat-new-account {
+    font-size: 1.2rem;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    
+}
