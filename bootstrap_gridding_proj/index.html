@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../bootstrap-4.2.1-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../bootstrap-4.2.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+      
+
+    <title>Hello!</title>
+  </head>
+  <body>
+      
+      <div class="container-fluid"> <!-- also try .container-fluid: it's based on a 100% width -->
+          <div class="row">
+              <div class="col-6">Col 1</div> <!-- in mobile state col-6 won't take 100% width-->
+              <div class="col-6">Col 2</div> <!-- ,but col-sm-6 or col-lg-6 will take 100% width-->
+          </div>
+          <div class="row">
+              <div class="col-sm-6 col-lg-4">Col 3</div>
+              <div class="col-sm-6 col-lg-4">Col 4</div>
+              <div class="col-sm-12 col-lg-4">Col 5</div>
+              <div class="col-sm-12 col-lg-4">Col 6 <!-- Creating columns and rows inside of columns-->
+                  <div class="row">
+                      <div class="col-6"></div>
+                      <div class="col-6"></div>
+                  </div>
+              </div> 
+
+              
+          </div>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="../bootstrap-4.2.1-dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  </body>
+</html>
