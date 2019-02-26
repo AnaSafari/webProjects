@@ -1,0 +1,65 @@
+/* line 1, /Users/Anahita/Documents/WebDev/Web8-SASSSMACSS/sass/layout/_grid.sass */
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center; }
+
+/* line 7, /Users/Anahita/Documents/WebDev/Web8-SASSSMACSS/sass/layout/_grid.sass */
+.row::after {
+  display: table;
+  clear: both; }
+
+/* line 11, /Users/Anahita/Documents/WebDev/Web8-SASSSMACSS/sass/layout/_grid.sass */
+.col-1 {
+  width: 8.33%; }
+
+/* line 13, /Users/Anahita/Documents/WebDev/Web8-SASSSMACSS/sass/layout/_grid.sass */
+.col-2 {
+  width: 16.66%; }
+
+/* line 15, /Users/Anahita/Documents/WebDev/Web8-SASSSMACSS/sass/layout/_grid.sass */
+.col-3 {
+  width: 25%; }
+
+/* line 17, /Users/Anahita/Documents/WebDev/Web8-SASSSMACSS/sass/layout/_grid.sass */
+.col-4 {
+  width: 33.33%; }
+
+/* line 19, /Users/Anahita/Documents/WebDev/Web8-SASSSMACSS/sass/layout/_grid.sass */
+.col-5 {
+  width: 41.66%; }
+
+/* line 21, /Users/Anahita/Documents/WebDev/Web8-SASSSMACSS/sass/layout/_grid.sass */
+.col-6 {
+  width: 50%; }
+
+/* line 23, /Users/Anahita/Documents/WebDev/Web8-SASSSMACSS/sass/layout/_grid.sass */
+.col-7 {
+  width: 58.33%; }
+
+/* line 25, /Users/Anahita/Documents/WebDev/Web8-SASSSMACSS/sass/layout/_grid.sass */
+.col-8 {
+  width: 66.66%; }
+
+/* line 27, /Users/Anahita/Documents/WebDev/Web8-SASSSMACSS/sass/layout/_grid.sass */
+.col-9 {
+  width: 75%; }
+
+/* line 29, /Users/Anahita/Documents/WebDev/Web8-SASSSMACSS/sass/layout/_grid.sass */
+.col-10 {
+  width: 83.33%; }
+
+/* line 31, /Users/Anahita/Documents/WebDev/Web8-SASSSMACSS/sass/layout/_grid.sass */
+.col-11 {
+  width: 91.66%; }
+
+/* line 33, /Users/Anahita/Documents/WebDev/Web8-SASSSMACSS/sass/layout/_grid.sass */
+.col-12 {
+  width: 100%; }
+
+/* line 36, /Users/Anahita/Documents/WebDev/Web8-SASSSMACSS/sass/layout/_grid.sass */
+* {
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=app.css.map */
