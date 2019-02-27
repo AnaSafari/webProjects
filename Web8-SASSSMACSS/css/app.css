@@ -1,3 +1,14 @@
+.center-block, .b-video-image {
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+body {
+  font-family: -apple-system, system-ui, BlinkMacSsystemFont, "Segoe UI";
+  font-size: 1 rem;
+  line-height: 1.25;
+  font-family: "Roboto Slab", serif; }
+
 .row {
   display: flex;
   width: 100%;
@@ -46,5 +57,190 @@
 
 * {
   box-sizing: border-box; }
+
+.about-title {
+  font-size: 1.25 rem;
+  margin: 0 0 30px;
+  color: #8B4513; }
+
+.about-text {
+  margin: 0 0 50px;
+  color: #b85b19;
+  letter-spacing: -0.025rem; }
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+.banner-container {
+  padding: 40px 0;
+  background-color: #8B4513;
+  color: #fff; }
+
+.splitter-container {
+  padding: 50px 0;
+  background-color: #F5F5F5;
+  text-align: center; }
+
+.about-container {
+  background-color: #C0C0C0;
+  padding: 70px 0;
+  min-height: 540px; }
+
+.home-title {
+  font-size: 30px;
+  font-weight: 500;
+  color: #e47070;
+  margin: -50px 0 40px; }
+
+.b-text {
+  font-size: 1.25 rem;
+  color: #fff;
+  margin: 0 0 20px;
+  font-family: "Roboto Slab", serif;
+  padding-right: 20px;
+  line-height: 1.7; }
+
+.b-card {
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+  background-color: #8B4513;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  margin-left: 50px; }
+  .b-card .b-title {
+    font-size: 27px;
+    margin: 0 0 15px;
+    font-weight: 500;
+    color: #C0C0C0; }
+  .b-card .b-video {
+    margin: 0 auto 15px; }
+
+#page-footer {
+  clear: both;
+  background-color: #8B4513;
+  padding: 25px 0 40px;
+  position: relative;
+  width: 100%;
+  overflow: hidden; }
+
+.footer-container {
+  padding: 0 10% 0; }
+  .footer-container .lego-footer {
+    font-size: 1 rem;
+    font-weight: 200;
+    color: #C0C0C0; }
+    .footer-container .lego-footer .footer-wrapper {
+      display: inline-block;
+      padding: 20px 0;
+      flex-wrap: wrap;
+      cursor: pointer; }
+
+.footer-link {
+  margin-right: 36px;
+  color: #C0C0C0;
+  text-decoration: none; }
+  .footer-link:hover {
+    color: #DC143C; }
+
+.b-video-image {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto; }
+
+.img-item {
+  margin: 0 30px 40px;
+  vertical-align: middle;
+  display: inline-block;
+  border-radius: 60px; }
+
+.img-list {
+  margin: 0 -20px -40px;
+  padding: 0; }
+
+.btn {
+  display: inline-block;
+  font-weight: normal;
+  line-height: 1.25;
+  text-align: center;
+  font-size: 1 rem;
+  vertical-align: middle;
+  border: 1px solid transparet;
+  transition: all, 0.2s ease-in-out;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  font-size: 1 rem;
+  border-radius: 10px; }
+
+.buy-btn-lg {
+  padding: 12px 35px;
+  font-size: 1.25 rem;
+  border-radius: 30px;
+  width: 100%; }
+
+.buy-btn-md {
+  padding: 18px 50px;
+  font-size: 1 rem;
+  border-radius: 30px; }
+
+.btn-dark {
+  color: #F5F5F5;
+  background-color: #edac7d;
+  border-color: #8B4513; }
+  .btn-dark:hover {
+    color: #F5F5F5;
+    background-color: #e78f50;
+    border-color: #5e2f0d; }
+
+.btn-primary {
+  color: #F5F5F5;
+  background-color: #fac3ce;
+  border-color: #B22222; }
+  .btn-primary:hover {
+    color: #F5F5F5;
+    background-color: #f594a7;
+    border-color: #871a1a; }
+
+.btn-third {
+  color: #F5F5F5;
+  background-color: #f0b0b0;
+  border-color: #F08080; }
+  .btn-third:hover {
+    color: #F5F5F5;
+    background-color: #e88585;
+    border-color: #eb5252; }
+
+.nav-header {
+  padding: 0 0 10px;
+  background-color: #fcfcfc; }
+  .nav-header .container {
+    padding: 10px 15px 0;
+    margin-left: auto;
+    margin-right: auto; }
+
+.nav-menu {
+  float: right;
+  margin: 5px 0 0; }
+  .nav-menu .nav-menu-list {
+    font-size: 1.25 rem;
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .nav-menu .nav-menu-list .nav-item {
+      display: inline-block;
+      margin: 0;
+      vertical-align: top; }
+      .nav-menu .nav-menu-list .nav-item .nav-a {
+        display: block;
+        text-decoration: none;
+        color: #8B4513;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        padding: 5px 10px; }
+        .nav-menu .nav-menu-list .nav-item .nav-a:hover {
+          color: red; }
 
 /*# sourceMappingURL=app.css.map */
